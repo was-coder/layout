@@ -1,0 +1,120 @@
+.header-container {
+  min-height: 10vh;
+}
+
+.nav-li {
+  float: left;
+  padding: 0 30px;
+  list-style: none;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: var(--transparent-white);
+  text-decoration: none;
+}
+
+.section-container {
+  min-height: 90vh;
+}
+
+.flex-container {
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 70%;
+  color: var(--transparent-white);
+}
+
+.cars {
+  padding: 30px;
+  height: 70vh;
+}
+
+.sedans-flex {
+  border-radius: 15px 0 0 0;
+}
+
+.luxury-flex {
+  border-radius: 0 0 15px 0;
+}
+
+.flex-heading {
+  font-family: var(--big-shoulder);
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.flex-text {
+  width: 70%;
+}
+
+.btn {
+  margin-top: 100px;
+  background: var(--transparent-white);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.sedans-btn {
+  color: var(--bright-orange);
+}
+
+.suvs-btn {
+  color: var(--dark-cyan);
+}
+
+.luxury-btn {
+  color: var(--very-dark-cyan);
+}
+
+/* grid styling */
+.grid-layout {
+  display: grid;
+  grid-template-areas:
+    "box-one box-one box-two"
+    "box-three box-four box-four"
+    "box-three box-five box-five";
+  gap: 10px;
+  background: var(--light-black);
+  padding: 40px;
+}
+
+.grid-one {
+  grid-area: box-one;
+  background: var(--bright-orange);
+  height: 200px;
+  width: 300px;
+}
+
+.grid-two {
+  grid-area: box-two;
+  background: var(--dark-cyan);
+  height: 200px;
+  width: 200px;
+}
+
+.grid-three {
+  grid-area: box-three;
+  background: var(--very-dark-cyan);
+  height: 200px;
+  width: 230px;
+}
+
+.grid-four {
+  grid-area: box-four;
+  background: var(--green);
+  height: 95px;
+  width: 270px;
+}
+
+.grid-five {
+  grid-area: box-five;
+  background: var(--blue);
+  height: 95px;
+  width: 270px;
+}

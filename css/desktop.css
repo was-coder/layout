@@ -1,0 +1,13 @@
+.section-container {
+  flex-direction: row;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.sedans-flex {
+  border-radius: 15px 0 0 15px;
+}
+
+.luxury-flex {
+  border-radius: 0 15px 15px 0;
+}

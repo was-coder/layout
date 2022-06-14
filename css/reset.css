@@ -1,0 +1,65 @@
+/* This is where general styling are written*/
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+  --light-black: rgb(43, 41, 41);
+  --green: green;
+  --blue: blue;
+  --big-shoulder: "Big Shoulders Display", cursive;
+  --lexend-deca: "Lexend Deca", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.flex-text,
+.btn {
+  font-family: var(--lexend-deca);
+}
+
+.header-container,
+.section-container {
+  display: flex;
+}
+
+.header-container,
+.grid-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.sedans-flex,
+.sedans-btn:hover {
+  background: var(--bright-orange);
+}
+
+.header-container,
+.suvs-flex,
+.suvs-btn:hover {
+  background: var(--dark-cyan);
+}
+
+.luxury-flex,
+.luxury-btn:hover {
+  background: var(--very-dark-cyan);
+}
+
+.sedans-btn:hover,
+.suvs-btn:hover,
+.luxury-btn:hover {
+  border: 1px solid var(--transparent-white);
+  color: var(--transparent-white);
+}
