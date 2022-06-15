@@ -2,7 +2,8 @@
 
 > This is a flex and grid layout design.
 
-![screenshot](./app_screenshot.png)
+![Flex Image](./images/flex.png)
+![Grid Image](./images/grid.png)
 
 ## Built With
 
@@ -12,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://books-lib.netlify.app/)
+[Live Demo Link](https://was-coder.github.io/layout/)
 
 ## Style Guides
 
